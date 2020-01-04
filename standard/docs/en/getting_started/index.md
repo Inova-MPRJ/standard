@@ -38,7 +38,7 @@ When you are done you could be producing data that looks something like the cont
    use_cases
    contracting_process
    building_blocks
-   releases_and_records
+   change_history
    publication_patterns
    validation
 ```

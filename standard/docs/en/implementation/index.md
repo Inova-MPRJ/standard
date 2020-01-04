@@ -7,6 +7,7 @@
 
    levels
    licensing
+   system_architectures
    publication_policy
    serialization
    hosting
