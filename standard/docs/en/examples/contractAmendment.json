@@ -205,58 +205,6 @@
               "language": "en"
             }
           ],
-          "implementation": {
-            "transactions": [
-              {
-                "id": "ocds-213czf-000-00001-1",
-                "source": "https://openspending.org/uk-barnet-spending/",
-                "date": "2010-08-01T00:00:00Z",
-                "uri": "https://openspending.org/uk-barnet-spending/transaction/asd9235qaghvs1059620ywhgai",
-                "payer": {
-                  "id": "GB-LAC-E09000003",
-                  "name": "London Borough of Barnet"
-                },
-                "payee": {
-                  "id": "GB-COH-00395826",
-                  "name": "Balfour Beatty"
-                },
-                "value": {
-                  "amount": 500000,
-                  "currency": "GBP"
-                }
-              },
-              {
-                "id": "ocds-213czf-000-00001-2",
-                "source": "https://openspending.org/uk-barnet-spending/",
-                "date": "2010-10-01T00:00:00Z",
-                "uri": "https://openspending.org/uk-barnet-spending/transaction/asd9235qaghvs105962as0012",
-                "payer": {
-                  "id": "GB-LAC-E09000003",
-                  "name": "London Borough of Barnet"
-                },
-                "payee": {
-                  "id": "GB-COH-00395826",
-                  "name": "Balfour Beatty"
-                },
-                "value": {
-                  "amount": 100000,
-                  "currency": "GBP"
-                }
-              }
-            ],
-            "documents": [
-              {
-                "id": "0009",
-                "documentType": "physicalProgressReport",
-                "title": "Progress report",
-                "description": "Physical progress report for cycle path construction",
-                "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-01.pdf",
-                "datePublished": "2010-12-15T15:34:02Z",
-                "format": "application/pdf",
-                "language": "en"
-              }
-            ]
-          },
           "amendments": [
             {
               "date": "2011-04-05T13:30:00Z",

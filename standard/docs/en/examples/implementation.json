@@ -86,125 +86,10 @@
         "id": "GB-LAC-E09000003",
         "name": "London Borough of Barnet"
       },
-      "awards": [
-        {
-          "id": "ocds-213czf-000-00001-award-01",
-          "title": "Award of contract to build new cycle lanes in the centre of town.",
-          "description": "Balfour Beatty Plc has been awarded the contract to build new cycle lanes in the centre of town.",
-          "status": "active",
-          "date": "2010-05-10T10:30:00Z",
-          "value": {
-            "amount": 11000000,
-            "currency": "GBP"
-          },
-          "suppliers": [
-            {
-              "id": "GB-COH-00395826",
-              "name": "Balfour Beatty"
-            }
-          ],
-          "items": [
-            {
-              "id": "0001",
-              "description": "string",
-              "classification": {
-                "scheme": "CPV",
-                "id": "45233130",
-                "description": "Construction work for highways",
-                "uri": "http://cpv.data.ac.uk/code-45233130"
-              },
-              "additionalClassifications": [
-                {
-                  "scheme": "CPV",
-                  "id": "45233162-2",
-                  "description": "Cycle path construction work",
-                  "uri": "http://cpv.data.ac.uk/code-45233162.html"
-                }
-              ],
-              "quantity": 8,
-              "unit": {
-                "name": "Miles",
-                "value": {
-                  "amount": 137000,
-                  "currency": "GBP"
-                }
-              }
-            }
-          ],
-          "contractPeriod": {
-            "startDate": "2010-07-01T00:00:00Z",
-            "endDate": "2011-08-01T23:59:00Z"
-          },
-          "documents": [
-            {
-              "id": "0007",
-              "documentType": "awardNotice",
-              "title": "Award notice",
-              "description": "Award of contract to build new cycle lanes in the centre of town to Balfour Beatty Plc.",
-              "url": "http://example.com/tender-notices/ocds-213czf-000-00001-04.html",
-              "datePublished": "2010-05-10T10:30:00Z",
-              "format": "text/html",
-              "language": "en"
-            }
-          ]
-        }
-      ],
       "contracts": [
         {
           "id": "ocds-213czf-000-00001-contract-01",
           "awardID": "ocds-213czf-000-00001-award-01",
-          "title": "Contract to build new cycle lanes in the centre of town.",
-          "description": "Contract monitoring for cycle lane construction.",
-          "status": "active",
-          "period": {
-            "startDate": "2010-07-01T00:00:00Z",
-            "endDate": "2011-08-01T23:59:00Z"
-          },
-          "value": {
-            "amount": 11000000,
-            "currency": "GBP"
-          },
-          "items": [
-            {
-              "id": "0001",
-              "description": "string",
-              "classification": {
-                "scheme": "CPV",
-                "id": "45233130",
-                "description": "Construction work for highways",
-                "uri": "http://cpv.data.ac.uk/code-45233130"
-              },
-              "additionalClassifications": [
-                {
-                  "scheme": "CPV",
-                  "id": "45233162-2",
-                  "description": "Cycle path construction work",
-                  "uri": "http://cpv.data.ac.uk/code-45233162.html"
-                }
-              ],
-              "quantity": 8,
-              "unit": {
-                "name": "Miles",
-                "value": {
-                  "amount": 137000,
-                  "currency": "GBP"
-                }
-              }
-            }
-          ],
-          "dateSigned": "2015-06-10T14:23:12Z",
-          "documents": [
-            {
-              "id": "0008",
-              "documentType": "contractSigned",
-              "title": "Signed Contract",
-              "description": "The Signed Contract for Cycle Path Construction",
-              "url": "http://example.com/contracts/ocds-213czf-000-00001",
-              "datePublished": "2015-06-10T16:43:12Z",
-              "format": "application/pdf",
-              "language": "en"
-            }
-          ],
           "implementation": {
             "transactions": [
               {
@@ -224,36 +109,6 @@
                   "amount": 500000,
                   "currency": "GBP"
                 }
-              },
-              {
-                "id": "ocds-213czf-000-00001-2",
-                "source": "https://openspending.org/uk-barnet-spending/",
-                "date": "2010-10-01T00:00:00Z",
-                "uri": "https://openspending.org/uk-barnet-spending/transaction/asd9235qaghvs105962as0012",
-                "payer": {
-                  "id": "GB-LAC-E09000003",
-                  "name": "London Borough of Barnet"
-                },
-                "payee": {
-                  "id": "GB-COH-00395826",
-                  "name": "Balfour Beatty"
-                },
-                "value": {
-                  "amount": 100000,
-                  "currency": "GBP"
-                }
-              }
-            ],
-            "documents": [
-              {
-                "id": "0009",
-                "documentType": "physicalProgressReport",
-                "title": "Progress report",
-                "description": "Physical progress report for cycle path construction",
-                "url": "http://example.com/reports/ocds-213czf-000-00001/cycle-path-01.pdf",
-                "datePublished": "2010-12-15T15:34:02Z",
-                "format": "application/pdf",
-                "language": "en"
               }
             ]
           }
